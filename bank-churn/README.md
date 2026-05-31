@@ -127,20 +127,28 @@ The EDA investigates the relationship between each feature and churn via univari
 
 - **Class distribution**: Count plot of the `Exited` target variable to visualise class imbalance.
 ![alt text](images/image.png)
+
 - **Credit score by gender**: Bar chart of mean credit scores split by gender and churn status.
 ![alt text](images/image-1.png)
+
 - **Estimated salary vs. churn**: Box plot — salary distributions are broadly similar across churned and retained customers, suggesting salary alone is a weak predictor.
-![alt text](images/image-2.png)
+- ![alt text](images/image-2.png)
+
 - **Balance vs. churn**: Box plot — churned customers tend to carry higher balances, indicating that high-balance customers may be more likely to leave (possibly migrating to competitors).
-![alt text](images/image-3.png)
+- ![alt text](images/image-3.png)
+
 - **Number of products vs. churn**: Count plot — customers holding only one product churn at a high rate; customers holding three or more products show near-total churn, likely due to product lock-in issues.
 ![alt text](images/image-4.png)
+
 - **Geography vs. churn**: Count plot — German customers churn at a noticeably higher rate relative to their population share compared to French and Spanish customers.
-![alt text](images/image-5.png)
+- ![alt text](images/image-5.png)
+
 - **Credit score vs. churn**: Box plot — distributions are similar, suggesting credit score is not strongly predictive on its own.
 ![alt text](images/image-7.png)
+
 - **KDE distributions**: Overlaid density plots for all numerical features, split by churn status, to identify separability.
 ![alt text](images/image-8.png)
+
 - **Spearman correlation heatmap**: Rank-based correlation matrix across numerical features to identify multicollinearity. `Age` and `Balance` show the strongest positive associations with churn among numerical features.
 ![alt text](images/image-9.png)
 ---
